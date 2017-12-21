@@ -52,7 +52,7 @@ def exec_command_via_ssh(server, cmd):
     return tmpstr
 
 def mount_x():
-    cmd = 'net use x: \"\\\\10.227.14.5\SharedDrive\ALL KMMI Personnel\Informity Collaboration\" /user:sevghenii kmmi@10072016'
+    cmd = 'net use x: \"\\\\10.227.14.5\SharedDrive\ALL KMMI Personnel\Informity Collaboration\" /user:sevghenii password'
     os.system(cmd)
 
 def unmount_x():
